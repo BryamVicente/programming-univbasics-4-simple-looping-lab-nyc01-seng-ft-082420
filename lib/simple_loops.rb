@@ -1,19 +1,22 @@
 # Write your methods here
 def loop_message_five_times(string)
   counter = 0
-
-  puts ""
-
+  while counter < 5
+    puts string
+    counter += 1
+  end
 end
+
+
 
 def loop_message_n_times(string,index)
 
 end
 
-def output_array
+def output_array(array)
 
 end
 
-def return_string_array
+def return_string_array(array)
 
 end
