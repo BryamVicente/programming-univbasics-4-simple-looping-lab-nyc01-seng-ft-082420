@@ -10,8 +10,13 @@ end
 
 
 def loop_message_n_times(string,index)
-
+  counter = 0
+  while counter < index do
+    puts string
+    counter += 1
+  end
 end
+
 
 def output_array(array)
 
